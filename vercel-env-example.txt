@@ -1,0 +1,11 @@
+# Vercel Environment Variables
+# Add these in your Vercel dashboard under Settings > Environment Variables
+
+NODE_ENV=production
+DATABASE_URL=your_production_database_url
+SESSION_SECRET=your_production_session_secret
+STRIPE_SECRET_KEY=your_stripe_secret_key
+VITE_STRIPE_PUBLISHABLE_KEY=your_stripe_publishable_key
+SMTP_HOST=your_smtp_host
+SMTP_USER=your_smtp_user
+SMTP_PASS=your_smtp_password

@@ -1,0 +1,20 @@
+﻿{
+  "name": "amsterdam-dash",
+  "private": true,
+  "workspaces": ["server", "client"],
+  "scripts": {
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "build": "npm run build:client",
+    "build:server": "cd server && npm run build",
+    "build:client": "cd client && npm run build",
+    "start": "cd server && npm start",
+    "db:push": "cd server && npm run db:push",
+    "vercel-build": "npm run build:client"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "@vercel/node": "^3.0.0"
+  }
+}
