@@ -1,4 +1,4 @@
-﻿{
+{
   "name": "amsterdam-dash",
   "private": true,
   "workspaces": ["server", "client"],
